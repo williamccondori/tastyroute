@@ -25,7 +25,9 @@ SECRET_KEY = '0sy(8wkdm1xeediml5v=2s3r$w8^15^e%zd9&bax7ud01+%uwc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://tastyroute.herokuapp.com/'
+]
 
 
 # Application definition
