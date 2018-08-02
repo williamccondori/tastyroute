@@ -1,1 +1,1 @@
-web: gunicorn unsa_repositorio.wsgi --log-file -
+web: gunicorn tastyroute.wsgi --log-file -
