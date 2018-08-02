@@ -821,9 +821,7 @@ a:focus, a:active {
 
 .logo-container .logo{
     overflow: hidden;
-    border-radius: 50%;
-    border: 1px solid #333333;
-    width: 50px; 
+    width: 100px; 
     float: left;
 }
 
@@ -1682,4 +1680,67 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
 .landing-page .parallax .buttons .btn-simple {
   font-size: 16px;
+}
+
+.logo-container .logo {
+  overflow: hidden;
+  width: 150px;
+  float: left;
+  margin-top: 10px;
+}
+
+.landing-page .parallax .description {
+  color: white;
+  padding: 0px;
+}
+
+.btn-neutral.btn-fill {
+  /* color: white; */
+  background-color: #64001D !important;
+  /* opacity: 1; */
+  filter: alpha(opacity=100);
+  color: #ffffff !important;
+  border-color: #ffffff;
+  border-radius: 0;
+}
+
+.filter-gradient.orange:after {
+  /* background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); */
+  background: -moz-linear-gradient(top, rgba(255,161,127,1) 0%, rgba(0,34,62,0.87) 100%);
+  /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,161,127,1)), color-stop(100%,rgba(0,34,62,0.87))); */
+  /* background: -webkit-linear-gradient(top, rgba(255,161,127,1) 0%,rgba(0,34,62,0.87) 100%); */
+  background: -o-linear-gradient(top, rgba(255,161,127,1) 0%,rgba(0,34,62,0.87) 100%);
+  background: -ms-linear-gradient(top, rgba(255,161,127,1) 0%,rgba(0,34,62,0.87) 100%);
+  background: linear-gradient(to bottom, #B71C1C 0%,rgba(0,34,62,0.87) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa17f', endColorstr='#de00223e',GradientType=0 );
+}
+
+.section-features{
+  background-color: #64001D;
+  color: #fff;
+}
+
+.section-features .header-text {
+  color: #fff;
+}
+
+.landing-page .section-features .card h4 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 30px 0 -15px;
+}
+
+.landing-page .section-features .card {
+   border-radius: 0;
+   border-color: #fff;
+}
+
+.landing-page .section-features .card.card-orange .icon i {
+  color: #fff;
+}
+
+.landing-page .section-features .card p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #F5F5F5;
 }
