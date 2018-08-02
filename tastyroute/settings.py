@@ -26,7 +26,7 @@ SECRET_KEY = '0sy(8wkdm1xeediml5v=2s3r$w8^15^e%zd9&bax7ud01+%uwc'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://tastyroute.herokuapp.com/'
+    'tastyroute.herokuapp.com'
 ]
 
 
