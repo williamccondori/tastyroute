@@ -9,13 +9,13 @@
                 <div class="description">
                     <h2>¡Disfruta de la comida!</h2>
                     <br>
-                    <h5>Es un asistente gastronómico por Internet que acompaña al turista para que disfrute de la verdadera comida típica, reduciendo los tiempos de búsqueda de locales, ampliando la variedad de oferta gastronómica, y liberando del estrés del tipo de cambio.</h5>
+                    <h5>TASTYROUTE es un asistente gastronómico por Internet que acompaña al turista para que disfrute de la verdadera comida típica, reduciendo los tiempos de búsqueda de locales, ampliando la variedad de oferta gastronómica, y liberando del estrés del tipo de cambio.</h5>
                 </div>
                 <div class="buttons">
 
-                    <button class="btn btn-fill btn-neutral">
+                    <a class="btn btn-fill btn-neutral" href="{% static 'apk/tastyroute.apk' %}" target="_bank">
                         <i class="fa fa-android"></i> Android
-                    </button>
+                    </a>
                     <button class="btn btn-simple btn-neutral">
                         <i class="fa fa-apple"></i> Próximamente!
                     </button>
@@ -34,32 +34,15 @@
 </div>
 <div class="section section-gray section-clients">
     <div class="container text-center">
-        <h4 class="header-text">¿Cómo funciona Tastyroute?</h4>
+        <h4 class="header-text">¿Cómo funciona TASTYROUTE?</h4>
         <p>
-            Aqui va una reseña
+            TASTYROUTE es una ruta digital en tiempo real de los mejores lugares para comer en la ciudad. Deja de preocuparte y aprovecha mejor tu tiempo mientras disfrutas de la gastronomía que de la ciudad.
             <br>
         </p>
         <div class="logos">
-            <ul class="list-unstyled">
-                <li>
-                    <img src="assets/img/logos/adobe.png" />
-                </li>
-                <li>
-                    <img src="assets/img/logos/zendesk.png" />
-                </li>
-                <li>
-                    <img src="assets/img/logos/ebay.png" />
-                    </i>
-                    <li>
-                        <img src="assets/img/logos/evernote.png" />
-                    </li>
-                    <li>
-                        <img src="assets/img/logos/airbnb.png" />
-                    </li>
-                    <li>
-                        <img src="assets/img/logos/zappos.png" />
-                    </li>
-            </ul>
+            <img src="{% static 'images/logo_2.png' %}" alt="logo" width="100px">
+            <br><br>
+            <img src="{% static 'images/logo.png' %}" alt="logo" width="400px">
         </div>
     </div>
 </div>
@@ -68,14 +51,12 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="description">
-                    <h4 class="header-text">Aqui va algo</h4>
-                    <p>Aqui va algo</p>
-                    <p>Aqui va algo.
-                    </p>
+                    <h4 class="header-text">¡La mejor comida del mundo!</h4>
+                    <p>Las personas que viven en Perú y los que visitan este hermoso país, están enamorados de sus deliciosos platos y exquisitas bebidas. Tan diversa como su geografía y sus tradiciones que resaltan sabores, insumos, colores, y texturas. Francia y Japón nos envidian.</p>
                 </div>
             </div>
             <div class="col-md-5 col-md-offset-1 hidden-xs">
-                <img src="assets/img/showcases/showcase-1/iphones.png" / style="top:-50px">
+                <img src="http://4.bp.blogspot.com/-8neoAT33o8A/TaGQUJe8uZI/AAAAAAAAAT0/-90jbR7bzTM/s1600/rocotos-rellenos.jpg" / style="top:-50px">
             </div>
         </div>
     </div>
@@ -86,29 +67,24 @@
             <div class="col-md-6">
                 <div id="description-carousel" class="carousel fade" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="item">
-                            <img src="assets/img/showcases/showcase-1/examples/home_3.jpg" alt="">
-                        </div>
                         <div class="item active">
-                            <img src="assets/img/showcases/showcase-1/examples/home_2.jpg" alt="">
+                            <img src="{% static 'images/home_3.jpg' %}" alt="">
                         </div>
                         <div class="item">
-                            <img src="assets/img/showcases/showcase-1/examples/home_1.jpg" alt="">
+                            <img src="{% static 'images/home_1.jpg' %}" alt="">
                         </div>
                     </div>
                     <ol class="carousel-indicators carousel-indicators-orange">
                         <li data-target="#description-carousel" data-slide-to="0" class=""></li>
-                        <li data-target="#description-carousel" data-slide-to="1" class="active"></li>
-                        <li data-target="#description-carousel" data-slide-to="2" class=""></li>
+                        <li data-target="#description-carousel" data-slide-to="1" class=""></li>
                     </ol>
                 </div>
             </div>
             <div class="col-md-5 col-md-offset-1">
                 <h4 class="header-text">Es muy fácil!</h4>
                 <p>
-                    Texto de es muy fácil!
+                    Estés donde estés sólo activa tu gps y TASTYROUTE mostrará los mejores y cercanos lugares a tu ubicación donde podrás disfrutar de la mejor comida de la ciudad. Puedes personalizar tus gustos por si eres vegetariano o si simplemente te gusta la comida picante. Y si no tienes efectivo en la moneda local, puedes pagar tu tarjeta. Aprovecha que por lanzamiento tenemos una cortesía en el local de tu elección. Disfruta tu paseo, disfruta la comida con TASTYROUTE.
                 </p>
-                <a href="http://www.creative-tim.com/product/awesome-landing-page" id="Demo1" class="btn btn-warning btn-fill" data-button="warning">Get Free Demo</a>
             </div>
         </div>
     </div>
@@ -124,7 +100,7 @@
                     </div>
                     <div class="text">
                         <h4>Recomendación de cercanía</h4>
-                        <p>Detalle</p>
+                        <p>Obtenga recomendaciones según su ubicación.</p>
                     </div>
                 </div>
             </div>
@@ -135,7 +111,7 @@
                     </div>
                     <div class="text">
                         <h4>Productos estrella del día</h4>
-                        <p>Detalle</p>
+                        <p>Reciba información sobre los lugares más valorados.</p>
                     </div>
                 </div>
             </div>
@@ -146,7 +122,7 @@
                     </div>
                     <div class="text">
                         <h4>La mejor comida de la ciudad</h4>
-                        <p>Detalle</p>
+                        <p>Obtenga información sobre los mejores restaurantes.</p>
                     </div>
                 </div>
             </div>
@@ -157,7 +133,7 @@
                     </div>
                     <div class="text">
                         <h4>Posibilidad de pago en tu moneda</h4>
-                        <p>Detalle</p>
+                        <p>Puedes pagar con la moneda que desees.</p>
                     </div>
                 </div>
             </div>
@@ -168,7 +144,7 @@
                     </div>
                     <div class="text">
                         <h4>Ubicación en tiempo real</h4>
-                        <p>Detalle</p>
+                        <p>Consulte su ubicación en tiempo real.</p>
                     </div>
                 </div>
             </div>
@@ -179,7 +155,7 @@
                     </div>
                     <div class="text">
                         <h4>Filtrado según tus gustos y preferencias</h4>
-                        <p>Detalle</p>
+                        <p>Obtén información sobre lugares según tus gustos.</p>
                     </div>
                 </div>
             </div>
@@ -188,42 +164,31 @@
 </div>
 <div class="section section-testimonial">
     <div class="container">
-        <h4 class="header-text text-center">Gente</h4>
+        <h4 class="header-text text-center">Nuestro equipo</h4>
         <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
-            <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item">
-                    <div class="mask">
-                        <img src="assets/img/faces/face-4.jpg">
-                    </div>
-                    <div class="carousel-testimonial-caption">
-                        <p>Jay Z, Producer</p>
-                        <h3>"I absolutely love your app! It's truly amazing and looks awesome!"</h3>
-                    </div>
-                </div>
                 <div class="item active">
                     <div class="mask">
-                        <img src="assets/img/faces/face-3.jpg">
+                        <img src="{% static 'images/hector.jpg' %}">
                     </div>
                     <div class="carousel-testimonial-caption">
-                        <p>Drake, Artist</p>
-                        <h3>"This is one of the most awesome apps I've ever seen! Wish you luck Creative Tim!"</h3>
+                        <p>Hector Herrera</p>
+                        <h3>Fundador y líder de estrategía</h3>
                     </div>
                 </div>
                 <div class="item">
                     <div class="mask">
-                        <img src="assets/img/faces/face-2.jpg">
+                        <img src="{% static 'images/william.jpg' %}">
                     </div>
                     <div class="carousel-testimonial-caption">
-                        <p>Rick Ross, Musician</p>
-                        <h3>"Loving this! Just picked it up the other day. Thank you for the work you put into this."</h3>
+                        <p>William Condori</p>
+                        <h3>Fundador y líder de desarrollo</h3>
                     </div>
                 </div>
             </div>
             <ol class="carousel-indicators carousel-indicators-orange">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             </ol>
         </div>
     </div>
@@ -236,7 +201,7 @@
         <div class="info">
             <h1>¡Obtenga Tastyroute!</h1>
             <p>Descargue nuestra aplicación para <b>Android</b>.</p>
-            <a href="h" class="btn btn-neutral btn-lg btn-fill">Descargar</a>
+            <a href="{% static 'apk/tastyroute.apk' %}" class="btn btn-neutral btn-lg btn-fill" target="_bank">Descargar</a>
         </div>
     </div>
 </div>
